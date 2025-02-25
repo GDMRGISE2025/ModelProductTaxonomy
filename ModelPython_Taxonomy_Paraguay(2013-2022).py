@@ -15,7 +15,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Cargar la base de datos global (exportaciones mundiales 2022)
-file_path = r"C:\Users\masol\OneDrive\Escritorio\Solci\TFG\Matriz de Exportaciones (2013-2022)\promedio_exportaciones_filtrado.xlsx"
+file_path = r"promedio_exportaciones_filtrado.xlsx"
 EXP_df = pd.read_excel(file_path, header=None)
 
 # Extraer country_id y product_id
